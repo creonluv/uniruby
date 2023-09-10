@@ -11,7 +11,7 @@ def play_game(player_choice, computer_choice)
 end
 
 if ARGV.length != 2
-  puts "Usage: ruby game.rb <your_choice> <computer_choice>"
+  puts ("Invalid amount of args")
 else
   player_choice = ARGV[0].downcase
   computer_choice = ARGV[1].downcase
